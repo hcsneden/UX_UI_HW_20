@@ -51,3 +51,26 @@ $("#toDoGenerator").on("click", function(){
     console.log(thing)
     $("#toEat").html("<h2>" + thing + "</h2>");
   });  
+
+  $("#marketGenerator").on("click", function(){
+    const suggestions = [ {
+        "thing": "Brick Land",
+        "link": ""
+    },
+    {
+        "thing": "Camden",
+        "link": ""
+    },
+    {
+        "thing": "Portobello Road",
+        "link": ""
+    },
+    {
+        "thing": "Greenwich",
+        "link": ""
+    }]
+    var number =  Math.floor(Math.random() * (4 - 0 + 1)) + 0;
+    var thing = suggestions[number].thing;
+    console.log(thing)
+    $("#market").html("<h2>" + thing + "</h2>");
+  });  
