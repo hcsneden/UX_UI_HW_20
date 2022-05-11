@@ -1,0 +1,53 @@
+/* add your css styles here! */
+.column-padding {
+  padding-top: 20px;
+}
+img {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 20px
+}
+
+.toDoContainer {
+  text-align: center;
+  margin: 50px;
+}
+
+.suggestion{
+    text-align: center;
+    margin: 50px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 1px 7px 2px;
+    background-color: #416165;
+    color: white
+}
+
+body{
+    background-color: #BCD0C7;
+    font-family: Poppins
+}
+
+.footer{
+    height: 100px;
+    background-color: #A9B2AC;
+}
+
+.food{
+    background-color: #DEF2C8;
+    
+}
+
+.toDo{
+    background-color: #89B5A1;
+}
+
+h5{ 
+    margin-bottom: 20px;
+}
+
+.container {
+    border-bottom: #707F78 solid;
+}
