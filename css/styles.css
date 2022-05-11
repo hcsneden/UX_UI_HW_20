@@ -51,3 +51,7 @@ h5{
 .container {
     border-bottom: #707F78 solid;
 }
+
+.last{
+    border-bottom: none;
+}
