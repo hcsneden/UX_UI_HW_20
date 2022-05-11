@@ -23,7 +23,7 @@ $("#toDoGenerator").on("click", function(){
         "thing": "Go to the Design Museum",
         "link": ""
     }]
-    var number =  Math.floor(Math.random() * (6 - 0 + 1)) + 0;
+    var number =  Math.floor(Math.random() * (5 - 0 + 1)) + 0;
     var thing = things[number].thing;
     console.log(thing)
     $("#toDo").html("<h2>" + thing + "</h2>");
